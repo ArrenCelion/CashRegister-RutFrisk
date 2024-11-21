@@ -65,7 +65,7 @@ namespace CashRegister
         }
 
 
-        public void BuyProduct(string input) //Snygga till sen maybe 
+        public void BuyProduct(string input)
         {
             Order order = SplitInput(input);
             if (order == null)
@@ -122,7 +122,7 @@ namespace CashRegister
         {
             var date = DateTime.Now.ToShortDateString();
             string data = receipt.ConvertToData();
-            string divider = "\n ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~ \n";
+            string divider = "\n~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~\n";
             string path = $"../../../RECEIPT_{date}.txt";
 
             using (StreamWriter writer = new StreamWriter(path, true))

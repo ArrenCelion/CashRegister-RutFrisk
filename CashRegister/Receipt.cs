@@ -16,7 +16,7 @@ namespace CashRegister
             decimal productCost = product.ProductPrice * amount;
             string currentProduct = $"{product.ProductName} {amount} * {product.ProductPrice} Kr/{product.PriceType} = {productCost} Kr";
             receiptList.Add(currentProduct);
-            totalAmount += productCost; //amount ska vara totala produkt kostnaden amount * price
+            totalAmount += productCost;
         }
 
         public void WriteReceipt()
