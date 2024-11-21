@@ -1,0 +1,6 @@
+﻿Banan, 4011, 29,99, kilo
+Apelsin, 3174, 40, kilo
+Jordgubbar, 4252, 60, kilo
+Kiwi, 3206, 8,50, styck
+Chokladmuffins, 15820, 10,50, styck
+Mjölk, 1234, 15, styck
